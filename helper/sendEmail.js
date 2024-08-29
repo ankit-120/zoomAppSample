@@ -10,7 +10,7 @@ export const sendEmailWithMeetingLink = async (meetingLink) => {
   });
 
   const mailOptions = {
-    from: "roy.coc733@gmail.com",
+    from: process.env.EMAIL,
     to: ["ankit25aeccse@gmail.com"],
     subject: "Zoom Training Session Invitation",
     text: `You are invited to a Zoom training session. Join the meeting using this link: ${meetingLink}`,
