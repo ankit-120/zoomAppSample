@@ -1,3 +1,3 @@
 # zoomAppSample
 
-please use email and app password to send email
+please use your gmail and app password to send email
